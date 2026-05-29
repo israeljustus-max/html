@@ -1,1 +1,32 @@
+body{
+    display: flex;
+}
+.botao{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    font-size: 15px;
+}
+.botao1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 15px;
+}
+.botao2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 194, 21);
+    font-size: 15px;
+}
+.campo{
+    width: 800px;
+    height: 500px;
+    font-size: 40px;
+}
+.organizar{
+    width: 350px;
+    height: 700px;
+    text-align: center;
 
+}
