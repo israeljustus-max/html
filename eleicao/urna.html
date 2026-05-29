@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="urna.css">
+    <title>Urna eletronica</title>
+    <script>
+        function adicionar(valor){
+            document.getElementById("campo").value += valor;
+        }
+        function limpar(){
+            document.getElementById("campo").value = "";
+        }
+        function calcular(){
+            var campo = document.getElementById("campo")
+            try {
+                campo.value = eval(campo.value);
+            }catch(error){
+                campo.value = "erro";
+            }
+        
+        }
+    </script>
+</head>
+<body>
 
+    <input type="text" placeholder="digite o numero do candidato desejado" class="campo" id="campo">
+
+<div class="organizar">
+    <button class="botao" onclick="adicionar('1')">1</button>
+    <button class="botao" onclick="adicionar('2')">2</button>
+    <button class="botao" onclick="adicionar('3')">3</button>
+    <button class="botao" onclick="adicionar('4')">4</button>
+    <button class="botao" onclick="adicionar('5')">5</button>
+    <button class="botao" onclick="adicionar('6')">6</button>
+    <button class="botao" onclick="adicionar('7')">7</button>
+    <button class="botao" onclick="adicionar('8')">8</button>
+    <button class="botao" onclick="adicionar('9')">9</button>
+    <button class="botao1" onclick="limpar()">apagar</button>
+    <button class="botao" onclick="adicionar('0')">0</button>
+    <a href="eleicao/entrada.html"><button class="botao2" onclick="adicionar()">confirmar</button>
+</div>
+
+</body>
+</html>
