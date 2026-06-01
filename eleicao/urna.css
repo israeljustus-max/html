@@ -1,28 +1,37 @@
 body{
     display: flex;
+    background-image: url('https://2.bp.blogspot.com/-S5NlI8eVgWU/XF3fN2Q8Q4I/AAAAAAAAGMg/dnZYvV6PZYIYRuPljVhnWV2f3B1FHYbSwCLcBGAs/s1600/bandeira.gif');
 }
 .botao{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     background-color: yellow;
     font-size: 15px;
+    border-radius: 10px;
+    border: solid 5px;
 }
 .botao1{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     background-color: red;
     font-size: 15px;
+    border-radius: 10px;
+    border: solid 5px;
+
 }
 .botao2{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     background-color: rgb(21, 194, 21);
     font-size: 15px;
+    border-radius: 10px;
+    border: solid 5px;
 }
 .campo{
     width: 800px;
     height: 500px;
     font-size: 40px;
+    background-color: #9ccafe;
 }
 .organizar{
     width: 350px;
