@@ -1,1 +1,21 @@
-
+.linha1{
+    width: 100px ;
+    height: 150px;
+    border-radius: 10px ;
+    border: 1px solid black ;
+    display: flex;
+}
+.linha2{
+    width: 100px ;
+    height: 150px;
+    border-radius: 10px ;
+    border: 1px solid black ;
+    display: flex;
+}
+.linha3{
+    width: 100px ;
+    height: 150px;
+    border-radius: 10px ;
+    border: 1px solid black ;
+    display: flex;
+}
