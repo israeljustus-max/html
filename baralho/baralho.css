@@ -1,3 +1,6 @@
+body{
+    display:flex;
+}
 .linha1{
     width: 100px ;
     height: 150px;
