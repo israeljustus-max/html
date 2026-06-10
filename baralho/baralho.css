@@ -1,24 +1,17 @@
-body{
-    display:flex;
-}
-.linha1{
-    width: 100px ;
-    height: 150px;
-    border-radius: 10px ;
-    border: 1px solid black ;
+.linha11, .linha22, .linha33 {
     display: flex;
+    gap: 10px;           /* espaço entre as cartas */
+    margin-bottom: 20px;
 }
-.linha2{
-    width: 100px ;
-    height: 150px;
-    border-radius: 10px ;
-    border: 1px solid black ;
+
+.linha1, .linha2, .linha3 {
+    width: 100px;
+    height: 140px;
+    background: white;
+    border: 2px solid black;
     display: flex;
-}
-.linha3{
-    width: 100px ;
-    height: 150px;
-    border-radius: 10px ;
-    border: 1px solid black ;
-    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
 }
