@@ -54,12 +54,39 @@ body {
 .foto {
     width: 80%;
     height: 90%;
+    margin-top: 5%;
+    display: inline;
+    float: right;
 }
 
 .baixo {
     margin-top: 90%;
+    font-size: 100%;
+    font-family: Arial;
+    display: inline;
+    float: right;    
 }
 
 .cima {
     margin-top: -1%;
+    font-size: 100%;
+    font-family: Arial;
+    display: inline;
+    float: right;    
+}
+.cima1{
+    margin-top: -1%;
+    font-size: 100%;
+    font-family: Arial;
+    color: red;
+    display: inline;
+    float: right;    
+}
+.baixo1{
+    margin-top: 90%;
+    font-size: 100%;
+    font-family: Arial;
+    color: red;
+    display: inline;
+    float: right;    
 }
