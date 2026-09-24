@@ -20,56 +20,146 @@
             background-color: white;
             justify-content: center;
             justify-self: center;
+            margin-left: 110%;
         }
         input{
             background-color: rgb(203, 203, 233);   
         }
         select{
             background-color: rgb(203, 203, 233);  
+            width: 15%;
         }
         textarea{
             width: 100%;
-            height: 80%;
+            height: 190%;
+        }
+        p{
+            font-size: 70%;
         }
         fieldset{
             width: 80%;
             height: 20%;
+            gap:30px;
+            margin-left: 8%
+            
         }
         .linha1{
             width: 100%;
             height: 10%;
+            margin-top:5%;
         }
         .linha2{
             width: 100%;
             height: 10%;
+            margin-top:5%;
         }
         .linha3{
             width: 100%;
             height: 10%;
+            margin-top:0%;
         }
         .linha4{
             width: 100%;
             height: 10%;
+            margin-top:5%;
         }
         .linha5{
             width: 100%;
             height: 10%;
+            margin-top:10%;
         }
         .linha6{
             width: 100%;
             height: 10%;
+            margin-top:5%;
         }
         .linha7{
             width: 100%;
             height: 10%;
+            margin-top:10%;
         }
         .linha8{
             width: 100%;
             height: 10%;
+            margin-top:5%;
         }
         .linha9{
             width: 100%;
             height: 20%;
+            margin-top:5%;
+        }
+        .titulos{
+            margin-left:2% ;
+            font-size: 70%;
+        }
+        .i2{
+            width: 45%;
+            margin-left: 2%;
+        }
+        .l8{
+            margin-top: -3%;
+            margin-left: 49%;
+        }
+        .l81{
+            margin-top: -4.3%;
+        }
+        .l1{
+            width: 80%;
+        }
+        .t11{
+            width: 15%;
+            margin-top: -4%;
+            font-size: 85%;
+        }
+        .t12{
+            width: 10%;
+            margin-top: -3%;
+            margin-left: 81%;
+            font-size: 85%;
+        }
+        .T21{
+            width: 20%;
+            font-size: 90%;
+        }
+        .t22{
+            width: 20%;
+            font-size: 90%;
+            margin-left: 17%;
+            margin-top: -3%;
+        }
+        .t23{
+            width: 20%;
+            font-size: 90%;
+            margin-left: 45%;
+            margin-top: -3%
+        }
+        .t24{
+            width: 20%;
+            font-size: 90%;
+            margin-left: 73%;
+            margin-top: -3%
+        }
+        .l2{
+            width: 27%;
+        }
+        .t31{
+            font-size: 90%;
+            margin-top: 5%;
+        }
+        .t32{
+            width: 20%;
+            font-size: 90%;
+            margin-left: 33%;
+            margin-top: -3%;
+        }
+        .t33{
+            width: 20%;
+            font-size: 90%;
+            margin-left: 66%;
+            margin-top: -3%;
+        }
+        .l3{
+            width: 32%;
         }
     </style>
 </head>
@@ -84,22 +174,50 @@
             </legend>
 
         <div class="linha1">
-            <input type="text">
+            <div class="t11">
+                <p>NOME COMPLETO:</p>
+            </div>
+            <div class="t12">
+                <p>SEXO:</p>
+            </div>
+            <input type="text" class="l1">
             <select>
                 <option>Masculino</option>
                 <option>Feminino</option>
+                <option>carro</option>
             </select>
         </div>
         <div class="linha2">
+            <div class="t21">
+                <p>DATA DE NASCIMENTO:</p>
+            </div>
+            <div class="t22">
+                <p>CPF:</p>
+            </div>
+            <div class="t23">
+                <p>RG:</p>
+            </div>
+            <div class="t24">
+                <p>NACIONALIDADE:</p>
+            </div>
             <input type="date">
-            <input type="text">
-            <input type="text">
-            <input type="text">
+            <input type="text" class="l2">
+            <input type="text" class="l2">
+            <input type="text" class="l2">
         </div>
         <div class="linha3">
-            <input type="email">
-            <input type="number">
-            <input type="number">
+            <div class="t31">
+                <p>E-MAIL:</p>
+            </div>
+            <div class="t32">
+                <p>TELEFONE.C:</p>
+            </div>
+            <div class="t33">
+                <p>TELEFONE.R:</p>
+            </div>
+            <input type="email" class="l3">
+            <input type="number" class="l3">
+            <input type="number" class="l3">
         </div>
         </fieldset>
         <fieldset>
@@ -158,10 +276,19 @@
             </LEGend>
 
         <div class="linha8">
-            <input type="text">
-            <input type="number">
+            <div class="l81">
+            <p class="titulos">NOME DO RESPONSAVEL:</p>
+            </div>
+            <div class="l8">
+            <p class="titulos">CPF DO RESPONSAVEL:</p>
+            </div>
+            <input type="text" class="i2">
+            <input type="number" class="i2">
         </div>
         <div class="linha9">
+            <DIV>
+                <p class="">OBSERVAÇÕES:</p>
+            </DIV>
             <textarea></textarea>
         </div>
     </div>
