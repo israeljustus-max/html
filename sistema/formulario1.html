@@ -1,12 +1,13 @@
-
-.<!DOCTYPE html>
+ .
+<!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="arial">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             background-color: aliceblue;
             justify-content: center;
             height: 900px;
@@ -14,7 +15,8 @@
             flex-direction: row;
             gap: 50px;
         }
-        .site{
+        
+        .site {
             width: 100%;
             height: 100%;
             background-color: white;
@@ -22,284 +24,372 @@
             justify-self: center;
             margin-left: 70%;
         }
-        input{
-            background-color: rgb(203, 203, 233);   
+        
+        input {
+            background-color: rgb(203, 203, 233);
         }
-        select{
-            background-color: rgb(203, 203, 233);  
+        
+        select {
+            background-color: rgb(203, 203, 233);
             width: 15%;
         }
-        textarea{
+        
+        textarea {
             width: 100%;
             height: 190%;
         }
-        p{
+        
+        p {
             font-size: 70%;
         }
-        fieldset{
+        
+        fieldset {
             width: 80%;
             height: 20%;
-            gap:30px;
+            gap: 30px;
             margin-left: 8%
-            
         }
-        .linha1{
+        
+        .linha1 {
             width: 100%;
             height: 10%;
-            margin-top:5%;
+            margin-top: 5%;
         }
-        .linha2{
+        
+        .linha2 {
             width: 100%;
             height: 10%;
-            margin-top:5%;
+            margin-top: 5%;
         }
-        .linha3{
+        
+        .linha3 {
             width: 100%;
             height: 10%;
-            margin-top:0%;
+            margin-top: 0%;
         }
-        .linha4{
+        
+        .linha4 {
             width: 100%;
             height: 10%;
-            margin-top:5%;
+            margin-top: 5%;
         }
-        .linha5{
+        
+        .linha5 {
             width: 100%;
             height: 10%;
-            margin-top:10%;
+            margin-top: 10%;
         }
-        .linha6{
+        
+        .linha6 {
             width: 100%;
             height: 10%;
-            margin-top:5%;
+            margin-top: 5%;
         }
-        .linha7{
+        
+        .linha7 {
             width: 100%;
             height: 10%;
-            margin-top:10%;
+            margin-top: 10%;
         }
-        .linha8{
+        
+        .linha8 {
             width: 100%;
             height: 10%;
-            margin-top:5%;
+            margin-top: 5%;
         }
-        .linha9{
+        
+        .linha9 {
             width: 100%;
             height: 20%;
-            margin-top:5%;
+            margin-top: 5%;
         }
-        .titulos{
-            margin-left:2% ;
+        
+        .titulos {
+            margin-left: 2%;
             font-size: 70%;
         }
-        .i2{
+        
+        .i2 {
             width: 45%;
             margin-left: 2%;
         }
-        .l8{
+        
+        .l8 {
             margin-top: -3%;
             margin-left: 49%;
         }
-        .l81{
+        
+        .l81 {
             margin-top: -4.3%;
         }
-        .l1{
+        
+        .l1 {
             width: 80%;
         }
-        .t11{
+        
+        .t11 {
             width: 15%;
             margin-top: -4%;
             font-size: 85%;
         }
-        .t12{
+        
+        .t12 {
             width: 10%;
             margin-top: -3%;
             margin-left: 81%;
             font-size: 85%;
         }
-        .T21{
+        
+        .T21 {
             width: 20%;
             font-size: 90%;
         }
-        .t22{
+        
+        .t22 {
             width: 20%;
             font-size: 90%;
             margin-left: 17%;
             margin-top: -3%;
         }
-        .t23{
+        
+        .t23 {
             width: 20%;
             font-size: 90%;
             margin-left: 45%;
             margin-top: -3%
         }
-        .t24{
+        
+        .t24 {
             width: 20%;
             font-size: 90%;
             margin-left: 73%;
             margin-top: -3%
         }
-        .l2{
+        
+        .l2 {
             width: 27%;
         }
-        .t31{
+        
+        .t31 {
             font-size: 90%;
             margin-top: 5%;
         }
-        .t32{
+        
+        .t32 {
             width: 20%;
             font-size: 90%;
             margin-left: 33%;
             margin-top: -3%;
         }
-        .t33{
+        
+        .t33 {
             width: 20%;
             font-size: 90%;
             margin-left: 66%;
             margin-top: -3%;
         }
-        .l3{
+        
+        .l3 {
             width: 32%;
         }
-        .t41{
+        
+        .t41 {
             font-size: 90%;
             margin-top: -3.5%;
         }
-        .t42{
+        
+        .t42 {
             width: 20%;
             font-size: 90%;
             margin-left: 25%;
             margin-top: -3.5%;
         }
-        .t43{
+        
+        .t43 {
             width: 20%;
             font-size: 90%;
             margin-left: 49%;
             margin-top: -3.5%;
         }
-        .t44{
+        
+        .t44 {
             width: 20%;
             font-size: 90%;
             margin-left: 73%;
             margin-top: -3%;
         }
-        .l5{
+        
+        .l5 {
             width: 41%;
         }
-        .t51{
+        
+        .t51 {
             width: 20%;
             font-size: 90%;
-            margin-left: 25%;
+            margin-left: 1%;
             margin-top: -3.5%;
         }
-        .t52{
+        
+        .t52 {
             width: 20%;
             font-size: 90%;
-            margin-left: 49%;
+            margin-left: 42%;
             margin-top: -3.5%;
         }
-        .t53{
+        
+        .t53 {
             width: 20%;
             font-size: 90%;
-            margin-left: 73%;
+            margin-left: 83%;
+            margin-top: -3%;
+        }
+        
+        .l6 {
+            width: 32%;
+        }
+        
+        .t61 {
+            width: 20%;
+            font-size: 90%;
+            margin-left: 0%;
+            margin-top: -3.5%;
+        }
+        
+        .t62 {
+            width: 20%;
+            font-size: 90%;
+            margin-left: 33%;
+            margin-top: -3.5%;
+        }
+        
+        .t63 {
+            width: 20%;
+            font-size: 90%;
+            margin-left: 65%;
+            margin-top: -3%;
+        }
+        
+        .l7 {
+            width: 65%;
+        }
+        
+        .t71 {
+            width: 20%;
+            font-size: 90%;
+            margin-left: 0%;
+            margin-top: -3.5%;
+        }
+        
+        .t72 {
+            width: 20%;
+            font-size: 90%;
+            margin-left: 16%;
+            margin-top: -3.5%;
+        }
+        
+        .t73 {
+            width: 20%;
+            font-size: 90%;
+            margin-left: 32%;
             margin-top: -3%;
         }
     </style>
 </head>
+
 <body>
     <header></header>
 
     <main>
-    <div class="site">
-        <fieldset>
-            <legend>
-                DADOS PESSOAIS
-            </legend>
+        <div class="site">
+            <fieldset>
+                <legend>
+                    DADOS PESSOAIS
+                </legend>
 
-        <div class="linha1">
-            <div class="t11">
-                <p>NOME COMPLETO:</p>
-            </div>
-            <div class="t12">
-                <p>SEXO:</p>
-            </div>
-            <input type="text" class="l1">
-            <select>
+                <div class="linha1">
+                    <div class="t11">
+                        <p>NOME COMPLETO:</p>
+                    </div>
+                    <div class="t12">
+                        <p>SEXO:</p>
+                    </div>
+                    <input type="text" class="l1">
+                    <select>
                 <option>Masculino</option>
                 <option>Feminino</option>
                 <option>carro</option>
             </select>
-        </div>
-        <div class="linha2">
-            <div class="t21">
-                <p>DATA DE NASCIMENTO:</p>
-            </div>
-            <div class="t22">
-                <p>CPF:</p>
-            </div>
-            <div class="t23">
-                <p>RG:</p>
-            </div>
-            <div class="t24">
-                <p>NACIONALIDADE:</p>
-            </div>
-            <input type="date">
-            <input type="text" class="l2">
-            <input type="text" class="l2">
-            <input type="text" class="l2">
-        </div>
-        <div class="linha3">
-            <div class="t31">
-                <p>E-MAIL:</p>
-            </div>
-            <div class="t32">
-                <p>TELEFONE.C:</p>
-            </div>
-            <div class="t33">
-                <p>TELEFONE.R:</p>
-            </div>
-            <input type="email" class="l3">
-            <input type="number" class="l3">
-            <input type="number" class="l3">
-        </div>
-        </fieldset>
-        <fieldset>
-            <legend>
-                DADOS DE ENDEREÇO
-            </legend>
+                </div>
+                <div class="linha2">
+                    <div class="t21">
+                        <p>DATA DE NASCIMENTO:</p>
+                    </div>
+                    <div class="t22">
+                        <p>CPF:</p>
+                    </div>
+                    <div class="t23">
+                        <p>RG:</p>
+                    </div>
+                    <div class="t24">
+                        <p>NACIONALIDADE:</p>
+                    </div>
+                    <input type="date">
+                    <input type="text" class="l2">
+                    <input type="text" class="l2">
+                    <input type="text" class="l2">
+                </div>
+                <div class="linha3">
+                    <div class="t31">
+                        <p>E-MAIL:</p>
+                    </div>
+                    <div class="t32">
+                        <p>TELEFONE.C:</p>
+                    </div>
+                    <div class="t33">
+                        <p>TELEFONE.R:</p>
+                    </div>
+                    <input type="email" class="l3">
+                    <input type="number" class="l3">
+                    <input type="number" class="l3">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    DADOS DE ENDEREÇO
+                </legend>
 
-        <div class="linha4">
-            <div class="t41">
-                <p>CEP:</p>
-            </div>
-            <div class="t42">
-                <p>LOGADOURO:</p>
-            </div>
-            <div class="t43">
-                <p>NÚMERO:</p>
-            </div>
-            <div class="t44">
-                <p>COMPLEMENTO:</p>
-            </div>
-            <input type="number">
-            <input type="text">
-            <input type="number">
-            <input type="text">
-        </div>
-        <div class="linha5">
-            <div class="t51">
-                <p>BAIRRO:</p>
-            </div>
-            <div class="t52">
-                <p>CIDADE:</p>
-            </div>
-            <div class="t53">
-                <p>ESTADO:</p>
-            </div>
-                <div class="t24">
-            <input type="text" class="l5">
-            <input type="text" class="l5">
-            <select>
+                <div class="linha4">
+                    <div class="t41">
+                        <p>CEP:</p>
+                    </div>
+                    <div class="t42">
+                        <p>LOGADOURO:</p>
+                    </div>
+                    <div class="t43">
+                        <p>NÚMERO:</p>
+                    </div>
+                    <div class="t44">
+                        <p>COMPLEMENTO:</p>
+                    </div>
+                    <input type="number">
+                    <input type="text">
+                    <input type="number">
+                    <input type="text">
+                </div>
+                <div class="linha5">
+                    <div class="t51">
+                        <p>BAIRRO:</p>
+                    </div>
+                    <div class="t52">
+                        <p>CIDADE:</p>
+                    </div>
+                    <div class="t53">
+                        <p>ESTADO:</p>
+                    </div>
+                    <div class="t54">
+                        <input type="text" class="l5">
+                        <input type="text" class="l5">
+                        <select>
                 <option>SP</option>
                 <option>MG</option>
                 <option>RJ</option>
@@ -309,57 +399,76 @@
                 <option>RS</option>
                 <option>PR</option>
             </select>
-        </div>
-        </fieldset>
-        <fieldset>
-            <legend>
-                DADOS ACADÊMICOS
-            </legend>
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    DADOS ACADÊMICOS
+                </legend>
 
-        <div class="linha6">
-            <input type="text">
-            <input type="int">
-            <input type="text">
-        </div>
-        <div class="linha7">
-            <select>
-                <option>Presencial</option>
-                <option>Semi-presencial</option>
-                <option>Home-office</option>
-            </select>
-            <select>
+                <div class="linha6">
+                    <div class="t61">
+                        <p>CURSO:</p>
+                    </div>
+                    <div class="t62">
+                        <p>MATRICULA:</p>
+                    </div>
+                    <div class="t63">
+                        <p>INICIO:</p>
+                    </div>
+                    <input class="l6" type="text">
+                    <input class="l6" type="int">
+                    <input class="l6" type="text">
+                </div>
+                <div class="linha7">
+                    <div class="t71">
+                        <p>MODALIDADE:</p>
+                    </div>
+                    <div class="t72">
+                        <p>TURNO:</p>
+                    </div>
+                    <div class="t73">
+                        <p>ESCOLARIDADE:</p>
+                    </div>
+                    <select>
+                        <option>Presencial</option>
+                        <option>Semi-presencial</option>
+                        <option>Home-office</option>
+                    </select>
+                    <select>
                 <option>Manhã</option>
                 <option>Tarde</option>
                 <option>Noite</option>
             </select>
-            <input type="text">
-        </div>
-        </fieldset>
-        <fieldset>
-            <LEGend>
-                DADOS DO RESPONSÁVEL
-            </LEGend>
+                    <input type="text" class="l7">
+                </div>
+            </fieldset>
+            <fieldset>
+                <LEGend>
+                    DADOS DO RESPONSÁVEL
+                </LEGend>
 
-        <div class="linha8">
-            <div class="l81">
-            <p class="titulos">NOME DO RESPONSAVEL:</p>
-            </div>
-            <div class="l8">
-            <p class="titulos">CPF DO RESPONSAVEL:</p>
-            </div>
-            <input type="text" class="i2">
-            <input type="number" class="i2">
-        </div>
-        <div class="linha9">
-            <DIV>
-                <p class="">OBSERVAÇÕES:</p>
-            </DIV>
-            <textarea></textarea>
-        </div>
-    </div>
-    </fieldset>
+                <div class="linha8">
+                    <div class="l81">
+                        <p class="titulos">NOME DO RESPONSAVEL:</p>
+                    </div>
+                    <div class="l8">
+                        <p class="titulos">CPF DO RESPONSAVEL:</p>
+                    </div>
+                    <input type="text" class="i2">
+                    <input type="number" class="i2">
+                </div>
+                <div class="linha9">
+                    <DIV>
+                        <p class="">OBSERVAÇÕES:</p>
+                    </DIV>
+                    <textarea></textarea>
+                </div>
+                </div>
+            </fieldset>
     </main>
     <footer>
     </footer>
 </body>
+
 </html>
